@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body{
+  background:#f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+  width:420px;
+  background:white;
+  border:1px solid #cfcfcf;
+  margin:40px auto;
+  box-shadow:0 2px 6px rgba(0,0,0,0.2);
+}
+
+.header{
+  background:#8b0000;
+  color:white;
+  text-align:center;
+  padding:12px;
+  font-size:18px;
+  font-weight:bold;
+  letter-spacing:1px;
+}
+
+.subheader{
+  text-align:center;
+  font-size:13px;
+  padding:6px;
+  border-bottom:1px solid #ddd;
+}
+
+.details{
+  padding:18px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+td{
+  padding:8px 4px;
+  font-size:14px;
+}
+
+.label{
+  font-weight:bold;
+  width:45%;
+}
+
+.status{
+  color:green;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+.noc{
+  color:#00008b;
+  font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="header">
+RAJASTHAN MEDICAL COUNCIL
+</div>
+
+<div class="subheader">
+Registered Medical Practitioner Details
+</div>
+
+<div class="details">
+
+<table>
+
+<tr>
+<td class="label">Name</td>
+<td>SARIMUL H MAZUMDER</td>
+</tr>
+
+<tr>
+<td class="label">Father's Name</td>
+<td>MAJARAF ALI MAZUMDER</td>
+</tr>
+
+<tr>
+<td class="label">Mother's Name</td>
+<td>AMINA BEGUM MAZUMDER</td>
+</tr>
+
+<tr>
+<td class="label">Registration No</td>
+<td>29027</td>
+</tr>
+
+<tr>
+<td class="label">Registration Date</td>
+<td>19 July 2024</td>
+</tr>
+
+<tr>
+<td class="label">Valid Up To</td>
+<td>19 July 2027</td>
+</tr>
+
+<tr>
+<td class="label">Status</td>
+<td class="status">ACTIVE</td>
+</tr>
+
+<tr>
+<td class="label">Date of Birth</td>
+<td>13 May 1992</td>
+</tr>
+
+<tr>
+<td class="label">NOC Status</td>
+<td class="noc">ISSUED – MEGHALAYA MEDICAL COUNCIL</td>
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+</body>
+</html>
